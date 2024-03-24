@@ -28,7 +28,7 @@ In this project, we implemented a classic two player game using traditional meth
 
 * Vivian Lee - vlee42@mylangara.ca 
 * Robert Watson - rwatson01@mylangara.ca
-* Leo Tang - htang35@mylangara.ca
+* Huy Tang - htang35@mylangara.ca
 
 
 ## Deployment
