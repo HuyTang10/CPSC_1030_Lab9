@@ -51,7 +51,7 @@ git clone https://github.com/HuyTang10/CPSC_1045_Group_2.git
 
 ## Demo
 
-[![Project Demo Video](https://vimeo.com/926759493?share=copy)
+https://github.com/HuyTang10/CPSC_1045_Group_2/assets/158626248/b171914b-9b72-44ed-9bae-9c30794e0401
 
 
 ## License
