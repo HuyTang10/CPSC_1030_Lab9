@@ -7,8 +7,6 @@
 In this project, we implemented a classic two player game using traditional methods. The first player will be the one to choose the word he desires, and the second player are guessing what word was selected based on the oral description of the first person. The main purpose is to fostering human connections and communication between players through a digital game.
 
 
-
-
 ## Built with
 
 **User Interface:** 
@@ -31,6 +29,8 @@ In this project, we implemented a classic two player game using traditional meth
  - Vivian Lee - 
  - Robert Watson - 
  - Leo Tang - tangbaohuy2307@gmail.com
+
+
 ## Deployment
 
 We deployed this project on the internet using GitHub pages.
@@ -48,6 +48,7 @@ https://huytang10.github.io/CPSC_1045_Group_2/pages/index.html
 git clone https://github.com/HuyTang10/CPSC_1045_Group_2.git
 ```
     
+
 ## Demo
 
 Insert gif or link to demo
