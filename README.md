@@ -26,9 +26,9 @@ In this project, we implemented a classic two player game using traditional meth
 
 ## Contributors
 
- - Vivian Lee - 
- - Robert Watson - 
- - Leo Tang - tangbaohuy2307@gmail.com
+* Vivian Lee - 
+* Robert Watson - 
+* Leo Tang - tangbaohuy2307@gmail.com
 
 
 ## Deployment
@@ -61,6 +61,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Acknowledgements
 
- - [FontSpace](https://www.fontspace.com/)
- - [Interface In Game](https://interfaceingame.com/)
- - [Tool for creating a decent README file](https://readme.so/)
+* [FontSpace](https://www.fontspace.com/)
+* [Interface In Game](https://interfaceingame.com/)
+* [Tool for creating a decent README file](https://readme.so/)
