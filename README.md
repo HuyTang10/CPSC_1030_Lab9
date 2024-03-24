@@ -33,7 +33,7 @@ In this project, we implemented a classic two player game using traditional meth
 
 ## Deployment
 
-We deployed this project on the internet using GitHub pages.
+We deployed this project on the internet using GitHub Pages.
 
 Please navigate to the link below.
 
