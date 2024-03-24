@@ -49,7 +49,7 @@ git clone https://github.com/HuyTang10/CPSC_1045_Group_2.git
 ```
 
 
-## Installation
+## How To Play
 
 1.	This game is for 2 players. 
 2.	Launch the Game: Open the game.html file in your web browser.
