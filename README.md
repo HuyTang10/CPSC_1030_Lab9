@@ -51,12 +51,12 @@ git clone https://github.com/HuyTang10/CPSC_1045_Group_2.git
 
 ## How To Play
 
-1.	This game is for 2 players. 
-2.	Launch the Game: Open the game.html file in your web browser.
-3.	Input the word: Once the game loads, one player will be prompted to enter a word containing only letters and/or spaces. The user could press enter or click next to finalize their input.
-4.	Start Guessing: Now that we have a word to guess, letters will appear on the screen. The second player can make their guesses by clicking on the letters.
-5.	Guess Wisely: If your chosen letter is in the word, it will be revealed in its correct position(s). If not, part of the hangman will be drawn, and the letter will be grayed out and unable to be selected again.
-6.	Win or Lose: Keep guessing until you either guess the word correctly or run out of 6 lives. If you guess the word, you win! If the hangman is fully drawn before you guess the word, you lose.
+1.	This game is for **2 players**. 
+2.	**Launch the Game**: Open the game.html file in your web browser.
+3.	**Input the word**: Once the game loads, one player will be prompted to enter a word containing only letters and/or spaces. The user could press enter or click next to finalize their input.
+4.	**Start Guessing**: Now that we have a word to guess, letters will appear on the screen. The second player can make their guesses by clicking on the letters.
+5.	**Guess Wisely**: If your chosen letter is in the word, it will be revealed in its correct position(s). If not, part of the hangman will be drawn, and the letter will be grayed out and unable to be selected again.
+6.	**Win or Lose**: Keep guessing until you either guess the word correctly or run out of 6 lives. If you guess the word, you win! If the hangman is fully drawn before you guess the word, you lose.
 7.	You can restart the game again by pressing the reset button.
 
 
