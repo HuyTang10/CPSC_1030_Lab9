@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/input.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/7dc635e006.js" crossorigin="anonymous"></script>
+        <title>Hangman Game</title>
+        <script src="../script/input.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="error-box" id="error-box">
+                <span class="close-button" onclick="closeErrorBox()">&times;</span>
+                <h2>There was an error.</h2>
+                <span>
+                    No word was provided or the word entered is in an invalid format.
+                    Please try again.
+                </span>
+                <span>
+                    <strong>Note: </strong>A word is deemed valid if it exclusively comprises alphabetic characters.
+                </span>
+            </div>
+            <div class="input-form">
+                <div class="input-area">
+                    <input type="text" name="word" id="word" onkeypress="handleKeyPress(event)" required>
+                    <div class="input-label">Choose your word</div>
+                </div>
+                <div class="button-group">
+                    <a href="./home.html"><button class="quit-button" id="quitButton">Quit</button></a>
+                    <button type="button" class="next-button" id="nextButton" onclick="handleNextButtonClick()">Next</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

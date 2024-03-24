@@ -1,0 +1,23 @@
+.container {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.game-title {
+    font-size: 60px;
+}
+
+.menu-buttons {
+    display: grid;
+    gap: 5%;
+}
+
+button {
+    width: 200px;
+    background-color: rgb(67, 27, 146);
+}  
+
+button:hover {
+    background-color: white;
+    color: rgb(67, 27, 146);
+}

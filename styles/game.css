@@ -1,0 +1,61 @@
+#wordDisplay {
+    padding-bottom: 20%;
+    font-size: 40px;
+}
+
+#message {
+    font-size: 30px;
+}
+
+#alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.guessed {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.letter {
+    border: 2px solid rgb(67, 27, 146);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.letter:hover {
+    background-color: rgb(67, 27, 146);
+    color: white;
+}
+
+.button-group {
+    padding: 50px 0 20px;
+}
+
+button {
+    width: 115px;
+}
+
+.reset-button {
+    background-color: rgb(255, 187, 0);
+}
+
+.reset-button:hover {
+    background-color: white;
+    color: rgb(255, 187, 0);
+}
+
+.quit-button {
+    background-color: red;
+}
+
+.quit-button:hover {
+    background-color: white;
+    color: red;
+}

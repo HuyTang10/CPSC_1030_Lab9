@@ -1,0 +1,98 @@
+.container {
+    flex-direction: column;
+    font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
+}
+
+.close-button {
+    position: absolute;
+    right: 8px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.error-box {
+    position: relative;
+    display: none;
+    gap: 10px;
+    border: 1px solid #c00;
+    background-color: #fef9f9;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-area {
+    position: relative;
+}
+
+.input-label {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+input {
+    width: 600px;
+    height: 50px;
+    outline: none;
+    border: 3px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    z-index: 999;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+    -webkit-text-fill-color: rgb(67, 27, 146);
+}
+
+input:focus ~ .input-label,
+input:valid ~ .input-label{
+    color: rgb(67, 27, 146);
+    background-color: white;
+    padding: 0 5px;
+    transform: translate(-25px, -25px) scale(0.8);
+}
+
+input:focus, input:valid {
+    color: rgb(67, 27, 146);
+    border: 3px solid rgb(67, 27, 146);
+}
+
+.button-group {
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+button {
+    width: 100px;
+}
+
+.next-button {
+    background-color: rgb(67, 27, 146);
+}
+
+.next-button:hover {
+    background-color: white;
+    color: rgb(67, 27, 146);
+}
+
+.quit-button {
+    background-color: red;
+}
+
+.quit-button:hover {
+    background-color: white;
+    color: red;
+}
