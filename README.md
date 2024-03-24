@@ -4,7 +4,7 @@
 
 # Hangman Game
 
-In this project, we implemented a classic two player game using traditional methods. The first player will be the one to choose the word he desires, and the second player are guessing what word was selected based on the oral description of the first person. The main purpose is to fostering human connections and communication between players through a digital game.
+In this project, we implemented a classic two player game using traditional methods. The first player will be the one to choose the word he desires, and the second player is guessing what word was selected based on the oral description of the first person. The main purpose is to foster human connections and communication between players through a digital game.
 
 
 ## Built with
@@ -26,9 +26,9 @@ In this project, we implemented a classic two player game using traditional meth
 
 ## Contributors
 
-* Vivian Lee - 
-* Robert Watson - 
-* Leo Tang - tangbaohuy2307@gmail.com
+* Vivian Lee - vlee42@mylangara.ca 
+* Robert Watson - rwatson01@mylangara.ca
+* Leo Tang - htang35@mylangara.ca
 
 
 ## Deployment
