@@ -4,13 +4,39 @@ const ctx = canvas.getContext("2d");
 // Get the input sent from input.js
 const urlParams = new URLSearchParams(window.location.search);
 const base64String = urlParams.get("selectedWord");
-const selectedWord = decodeData(base64String);
+const selectedWord = decodeData(base64String).toLowerCase();
 var guessedLetters = [];
 var wrongAttempts = 0;
+let timerInterval;
 
 // Decode the Base64 string into the original word
 function decodeData(base64String) {
     return atob(base64String);
+}
+
+// Start the timer
+function startTimer() {
+    let timerDisplay = document.getElementById("timer");
+
+    let seconds = 1;
+    let minutes, secondsDisplay;
+
+    timerInterval = setInterval(function () {
+      minutes = parseInt(seconds / 60, 10);
+      secondsDisplay = seconds % 60;
+
+      let minutesDisplay = minutes < 10 ? "0" + minutes : minutes;
+      secondsDisplay = secondsDisplay < 10 ? "0" + secondsDisplay : secondsDisplay;
+
+      timerDisplay.textContent = minutesDisplay + ":" + secondsDisplay;
+
+      seconds++;
+    }, 1000);
+}
+
+// Stop the timer
+function stopTimer() {
+    clearInterval(timerInterval);
 }
 
 // Draw the scaffold
@@ -77,9 +103,11 @@ function checkLetter(letter) {
 function checkGameStatus() {
     // Player can only have total 6 attempts to make
     if (wrongAttempts === 6) {
+        stopTimer();
         displayMessage("Game Over! The word was: " + selectedWord);
         document.getElementById("alphabet").innerHTML = "";
     } else if (!document.getElementById("wordDisplay").innerHTML.includes("_")) {
+        stopTimer();
         displayMessage("Congratulations! You won!");
         document.getElementById("alphabet").innerHTML = "";
     }
@@ -92,6 +120,7 @@ function displayMessage(message) {
 
 // Load the game
 window.onload = function() {
+    startTimer();
     drawScaffold();
     displayWord();
     displayLetters();
