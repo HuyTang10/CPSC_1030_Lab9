@@ -1,17 +1,33 @@
+.container {
+    justify-content: none;
+    align-items: none;
+}
+
+#mainGame {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
 #wordDisplay {
-    padding-bottom: 20%;
+    position: relative;
+    top: 10%;
     font-size: 40px;
 }
 
-#message {
-    font-size: 30px;
-}
-
 #alphabet {
+    position: absolute;
+    top: 45%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 5px;
+}
+
+#message {
+    position: absolute;
+    top: 45%;
+    font-size: 30px;
 }
 
 .guessed {
@@ -35,7 +51,8 @@
 }
 
 .button-group {
-    padding: 50px 0 20px;
+    position: absolute;
+    bottom: 0;
 }
 
 button {
