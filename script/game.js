@@ -22,7 +22,7 @@ function startTimer() {
     let minutes, secondsDisplay;
 
     timerInterval = setInterval(function () {
-      minutes = parseInt(seconds / 60, 10);
+      minutes = parseInt(seconds / 60);
       secondsDisplay = seconds % 60;
 
       let minutesDisplay = minutes < 10 ? "0" + minutes : minutes;
