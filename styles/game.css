@@ -9,6 +9,11 @@
     width: 100%;
 }
 
+#utilities {
+    display: flex;
+    justify-content: space-between;
+}
+
 #wordDisplay {
     position: relative;
     top: 10%;

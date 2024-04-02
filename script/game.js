@@ -5,6 +5,7 @@ const ctx = canvas.getContext("2d");
 const urlParams = new URLSearchParams(window.location.search);
 const base64String = urlParams.get("selectedWord");
 const selectedWord = decodeData(base64String).toLowerCase();
+const attemptsDisplay = document.getElementById("attempts"); 
 var guessedLetters = [];
 var wrongAttempts = 0;
 let timerInterval;
@@ -91,6 +92,7 @@ function checkLetter(letter) {
         guessedLetters.push(letter);
         if (!selectedWord.includes(letter)) {
             wrongAttempts++;
+            attemptsDisplay.innerHTML = parseInt(attemptsDisplay.innerHTML) - 1; // Display attempts left for second player
         }
         drawHangman(); // This is called from hangman.js
         displayWord();
